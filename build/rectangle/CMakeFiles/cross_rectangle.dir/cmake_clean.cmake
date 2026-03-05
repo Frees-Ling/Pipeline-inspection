@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cwkj/workspace/cross_box/devel/lib/rectangle/cross_rectangle"
-  "/home/cwkj/workspace/cross_box/devel/lib/rectangle/cross_rectangle.pdb"
+  "/home/cat/Crossing-Box-Frame/devel/lib/rectangle/cross_rectangle"
+  "/home/cat/Crossing-Box-Frame/devel/lib/rectangle/cross_rectangle.pdb"
   "CMakeFiles/cross_rectangle.dir/src/PID_controller.cpp.o"
   "CMakeFiles/cross_rectangle.dir/src/cross_rectangle.cpp.o"
 )

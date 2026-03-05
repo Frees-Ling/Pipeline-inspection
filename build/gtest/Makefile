@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cwkj/workspace/cross_box/src
+CMAKE_SOURCE_DIR = /home/cat/Crossing-Box-Frame/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cwkj/workspace/cross_box/build
+CMAKE_BINARY_DIR = /home/cat/Crossing-Box-Frame/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/cwkj/workspace/cross_box/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cwkj/workspace/cross_box/build/CMakeFiles /home/cwkj/workspace/cross_box/build/gtest/CMakeFiles/progress.marks
-	cd /home/cwkj/workspace/cross_box/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cwkj/workspace/cross_box/build/CMakeFiles 0
+	cd /home/cat/Crossing-Box-Frame/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/cat/Crossing-Box-Frame/build/CMakeFiles /home/cat/Crossing-Box-Frame/build/gtest/CMakeFiles/progress.marks
+	cd /home/cat/Crossing-Box-Frame/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cat/Crossing-Box-Frame/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/cwkj/workspace/cross_box/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
+	cd /home/cat/Crossing-Box-Frame/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,17 +154,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/cwkj/workspace/cross_box/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+	cd /home/cat/Crossing-Box-Frame/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/cwkj/workspace/cross_box/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
+	cd /home/cat/Crossing-Box-Frame/build && $(MAKE) -f CMakeFiles/Makefile2 gtest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/cwkj/workspace/cross_box/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/cat/Crossing-Box-Frame/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -191,6 +191,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/cwkj/workspace/cross_box/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/cat/Crossing-Box-Frame/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

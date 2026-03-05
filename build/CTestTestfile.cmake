@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/cwkj/workspace/cross_box/src
-# Build directory: /home/cwkj/workspace/cross_box/build
+# Source directory: /home/cat/Crossing-Box-Frame/src
+# Build directory: /home/cat/Crossing-Box-Frame/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

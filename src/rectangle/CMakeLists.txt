@@ -19,7 +19,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 find_package(OpenCV REQUIRED)
-
+find_package(Eigen3 REQUIRED)
 
 ## Uncomment this if the package has a setup.py. This macro ensures
 ## modules and global scripts declared therein get installed
@@ -140,8 +140,19 @@ include_directories(
 add_executable(cross_rectangle
  src/cross_rectangle.cpp
  src/PID_controller.cpp
+ ##src/threshold_binary.cpp
  )
 
+ add_executable(mytest
+ src/test2.cpp
+ )
+ 
+add_executable(detection
+ src/threshold_binary.cpp
+ )
+ 
+ add_executable(yaw_printer src/yaw_printer.cpp)
+target_link_libraries(yaw_printer ${catkin_LIBRARIES})
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
@@ -154,7 +165,8 @@ add_executable(cross_rectangle
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(cross_rectangle ${catkin_LIBRARIES})
-
+target_link_libraries(mytest ${catkin_LIBRARIES})
+target_link_libraries(detection ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############

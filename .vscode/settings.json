@@ -16,5 +16,6 @@
         "/home/cwkj/workspace/track_vehicle2.0/devel/lib/python3/dist-packages",
         "/home/cwkj/catkin_ws/devel/lib/python3/dist-packages",
         "/opt/ros/noetic/lib/python3/dist-packages"
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/frees-ling/桌面/FL/Pipe/Crossing-Box-Frame/src"
 }

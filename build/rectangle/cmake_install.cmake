@@ -1,8 +1,8 @@
-# Install script for directory: /home/cwkj/workspace/cross_box/src/rectangle
+# Install script for directory: /home/cat/Crossing-Box-Frame/src/rectangle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cwkj/workspace/cross_box/install")
+  set(CMAKE_INSTALL_PREFIX "/home/cat/Crossing-Box-Frame/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cwkj/workspace/cross_box/build/rectangle/catkin_generated/installspace/rectangle.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cat/Crossing-Box-Frame/build/rectangle/catkin_generated/installspace/rectangle.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rectangle/cmake" TYPE FILE FILES
-    "/home/cwkj/workspace/cross_box/build/rectangle/catkin_generated/installspace/rectangleConfig.cmake"
-    "/home/cwkj/workspace/cross_box/build/rectangle/catkin_generated/installspace/rectangleConfig-version.cmake"
+    "/home/cat/Crossing-Box-Frame/build/rectangle/catkin_generated/installspace/rectangleConfig.cmake"
+    "/home/cat/Crossing-Box-Frame/build/rectangle/catkin_generated/installspace/rectangleConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rectangle" TYPE FILE FILES "/home/cwkj/workspace/cross_box/src/rectangle/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rectangle" TYPE FILE FILES "/home/cat/Crossing-Box-Frame/src/rectangle/package.xml")
 endif()
 
