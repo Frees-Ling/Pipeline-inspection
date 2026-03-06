@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cat/Crossing-Box-Frame/src/rectangle/src/threshold_binary.cpp" "/home/cat/Crossing-Box-Frame/build/rectangle/CMakeFiles/detection.dir/src/threshold_binary.cpp.o"
+  "/home/fl/桌面/Pipe/Pipeline-inspection/src/rectangle/src/threshold_binary.cpp" "/home/fl/桌面/Pipe/Pipeline-inspection/build/rectangle/CMakeFiles/detection.dir/src/threshold_binary.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/cat/Crossing-Box-Frame/src/rectangle/include"
+  "/home/fl/桌面/Pipe/Pipeline-inspection/src/rectangle/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/opencv4"

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cat/Crossing-Box-Frame/devel/lib/rectangle/yaw_printer"
-  "/home/cat/Crossing-Box-Frame/devel/lib/rectangle/yaw_printer.pdb"
+  "/home/fl/桌面/Pipe/Pipeline-inspection/devel/lib/rectangle/yaw_printer"
+  "/home/fl/桌面/Pipe/Pipeline-inspection/devel/lib/rectangle/yaw_printer.pdb"
   "CMakeFiles/yaw_printer.dir/src/yaw_printer.cpp.o"
 )
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cat/Crossing-Box-Frame/devel/lib/rectangle/mytest"
-  "/home/cat/Crossing-Box-Frame/devel/lib/rectangle/mytest.pdb"
+  "/home/fl/桌面/Pipe/Pipeline-inspection/devel/lib/rectangle/mytest"
+  "/home/fl/桌面/Pipe/Pipeline-inspection/devel/lib/rectangle/mytest.pdb"
   "CMakeFiles/mytest.dir/src/test2.cpp.o"
 )
 

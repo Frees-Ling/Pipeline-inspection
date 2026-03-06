@@ -67,14 +67,14 @@ set(rectangle_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(rectangle_SOURCE_PREFIX /home/cat/Crossing-Box-Frame/src/rectangle)
-  set(rectangle_DEVEL_PREFIX /home/cat/Crossing-Box-Frame/devel)
+  set(rectangle_SOURCE_PREFIX /home/fl/桌面/Pipe/Pipeline-inspection/src/rectangle)
+  set(rectangle_DEVEL_PREFIX /home/fl/桌面/Pipe/Pipeline-inspection/devel)
   set(rectangle_INSTALL_PREFIX "")
   set(rectangle_PREFIX ${rectangle_DEVEL_PREFIX})
 else()
   set(rectangle_SOURCE_PREFIX "")
   set(rectangle_DEVEL_PREFIX "")
-  set(rectangle_INSTALL_PREFIX /home/cat/Crossing-Box-Frame/install)
+  set(rectangle_INSTALL_PREFIX /home/fl/桌面/Pipe/Pipeline-inspection/install)
   set(rectangle_PREFIX ${rectangle_INSTALL_PREFIX})
 endif()
 
@@ -156,7 +156,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/cat/Crossing-Box-Frame/install/lib;/home/cat/Crossing-Box-Frame/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/fl/桌面/Pipe/Pipeline-inspection/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

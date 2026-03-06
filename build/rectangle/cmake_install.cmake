@@ -1,8 +1,8 @@
-# Install script for directory: /home/cat/Crossing-Box-Frame/src/rectangle
+# Install script for directory: /home/fl/桌面/Pipe/Pipeline-inspection/src/rectangle
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/cat/Crossing-Box-Frame/install")
+  set(CMAKE_INSTALL_PREFIX "/home/fl/桌面/Pipe/Pipeline-inspection/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/cat/Crossing-Box-Frame/build/rectangle/catkin_generated/installspace/rectangle.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/fl/桌面/Pipe/Pipeline-inspection/build/rectangle/catkin_generated/installspace/rectangle.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rectangle/cmake" TYPE FILE FILES
-    "/home/cat/Crossing-Box-Frame/build/rectangle/catkin_generated/installspace/rectangleConfig.cmake"
-    "/home/cat/Crossing-Box-Frame/build/rectangle/catkin_generated/installspace/rectangleConfig-version.cmake"
+    "/home/fl/桌面/Pipe/Pipeline-inspection/build/rectangle/catkin_generated/installspace/rectangleConfig.cmake"
+    "/home/fl/桌面/Pipe/Pipeline-inspection/build/rectangle/catkin_generated/installspace/rectangleConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rectangle" TYPE FILE FILES "/home/cat/Crossing-Box-Frame/src/rectangle/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rectangle" TYPE FILE FILES "/home/fl/桌面/Pipe/Pipeline-inspection/src/rectangle/package.xml")
 endif()
 

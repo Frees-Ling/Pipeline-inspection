@@ -1,4 +1,4 @@
-prefix=/home/cat/Crossing-Box-Frame/install
+prefix=/home/fl/桌面/Pipe/Pipeline-inspection/install
 
 Name: rectangle
 Description: Description of rectangle

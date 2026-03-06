@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/cat/Crossing-Box-Frame/devel/lib/rectangle/detection"
-  "/home/cat/Crossing-Box-Frame/devel/lib/rectangle/detection.pdb"
+  "/home/fl/桌面/Pipe/Pipeline-inspection/devel/lib/rectangle/detection"
+  "/home/fl/桌面/Pipe/Pipeline-inspection/devel/lib/rectangle/detection.pdb"
   "CMakeFiles/detection.dir/src/threshold_binary.cpp.o"
 )
 

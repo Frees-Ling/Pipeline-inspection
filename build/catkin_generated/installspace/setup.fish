@@ -18,7 +18,7 @@ if not type -q bass
 end
 
 if test -z $_CATKIN_SETUP_DIR
-    set _CATKIN_SETUP_DIR /home/cat/Crossing-Box-Frame/install
+    set _CATKIN_SETUP_DIR /home/fl/桌面/Pipe/Pipeline-inspection/install
 end
 
 set _SETUP_UTIL "$_CATKIN_SETUP_DIR/_setup_util.py"

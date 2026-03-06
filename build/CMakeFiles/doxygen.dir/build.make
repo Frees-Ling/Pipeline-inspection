@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cat/Crossing-Box-Frame/src
+CMAKE_SOURCE_DIR = /home/fl/桌面/Pipe/Pipeline-inspection/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cat/Crossing-Box-Frame/build
+CMAKE_BINARY_DIR = /home/fl/桌面/Pipe/Pipeline-inspection/build
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/cat/Crossing-Box-Frame/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cat/Crossing-Box-Frame/src /home/cat/Crossing-Box-Frame/src /home/cat/Crossing-Box-Frame/build /home/cat/Crossing-Box-Frame/build /home/cat/Crossing-Box-Frame/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fl/桌面/Pipe/Pipeline-inspection/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fl/桌面/Pipe/Pipeline-inspection/src /home/fl/桌面/Pipe/Pipeline-inspection/src /home/fl/桌面/Pipe/Pipeline-inspection/build /home/fl/桌面/Pipe/Pipeline-inspection/build /home/fl/桌面/Pipe/Pipeline-inspection/build/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 
